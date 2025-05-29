@@ -77,11 +77,11 @@ font-family: 'Roboto', sans-serif;
     background: white;
     overflow-y: scroll;
 }
-.category-section {
+.categories-section {
     border-bottom: 1px solid #cccccc;
     margin-top: 10px;
 }
-.category-section .category:last-child {
+.categories-section:last-child {
     margin-bottom: 10px;
 }
 .category_heading {
@@ -145,7 +145,7 @@ font-family: 'Roboto', sans-serif;
 .video-grid {
     display: flex;
     flex-wrap: wrap;
-    padding: 15%;
+    padding: 15px;
 }
 .video {
     width: calc(25% - 12px);
